@@ -24,6 +24,7 @@ header {
 
 .navlist {
     list-style-type: none;
+    padding-bottom: 30px;
 }
 
 .navlist li {
@@ -72,4 +73,25 @@ button:hover {
         width: 100%;
         padding: 10px 0px;
     }
+}
+
+.maincontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15%;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+}
+
+.maincontent img {
+    max-width: 40%;
+    height: auto;
+    float: right;
+    border-radius: 15px;
 }
