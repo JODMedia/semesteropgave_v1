@@ -91,6 +91,9 @@ header {
         width: 100%;
         padding: 10px 0px;
     }
+    .maincontent .cta__seprojekter {
+        margin-left: 0px;
+    }
 }
 
 .maincontent {
@@ -138,6 +141,13 @@ header {
 .maincontent img {
     max-width: 100%;
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 1086px) {
+    .maincontent .cta__seprojekter {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
 }
 
 #footer {
