@@ -80,7 +80,10 @@ header {
     }
     .container {
         padding-bottom: 20px;
-        padding-top: 10px;
+        padding-top: 60px;
+    }
+    .navlist button {
+        margin-top: 8px;
     }
 
 }
@@ -90,9 +93,6 @@ header {
         display: block;
         width: 100%;
         padding: 10px 0px;
-    }
-    .maincontent .cta__seprojekter {
-        margin-left: 0px;
     }
 }
 
