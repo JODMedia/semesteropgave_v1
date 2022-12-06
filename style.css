@@ -159,3 +159,12 @@ header {
     padding-top: 150px;
     padding-bottom: 50px;
 }
+
+.socials {
+    padding-top: 10px;
+}
+
+.socials i {
+    font-size: 1.6rem;
+    width: 40px;
+}
