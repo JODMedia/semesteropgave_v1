@@ -48,7 +48,7 @@ header {
 
 .navlist button {
    padding: 10px 10px; 
-   background-color: rgba(15, 101, 199,1);
+   background-color: rgba(15, 101, 199,1); /* en anden farve kunne være 58, 65, 255 */
    border: none;
    border-radius: 15px;
    cursor: pointer;
