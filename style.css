@@ -50,7 +50,7 @@ header {
    padding: 10px 10px; 
    background-color: rgba(15, 101, 199,1); /* en anden farve kunne være 58, 65, 255 */
    border: none;
-   border-radius: 15px;
+   border-radius: 3px;
    cursor: pointer;
    transition: all 0.3s ease 0s;
 }
@@ -116,7 +116,7 @@ header {
     background-color: rgb(255, 255, 255);
     color: black;
     border: none;
-    border-radius: 15px;
+    border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -125,7 +125,7 @@ header {
     padding: 10px 10px; 
     background-color: rgb(15, 101, 199);
     border: none;
-    border-radius: 15px;
+    border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
