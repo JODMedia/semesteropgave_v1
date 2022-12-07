@@ -148,6 +148,9 @@ header {
         margin-top: 10px;
         margin-left: 0px;
     }
+    #footer {
+        flex-direction: column;
+    }
 }
 
 #footer {
@@ -158,6 +161,10 @@ header {
     text-align: center;
     padding-top: 150px;
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .socials {
@@ -167,8 +174,4 @@ header {
 .socials i {
     font-size: 1.6rem;
     width: 40px;
-}
-
-.footerinformation {
-    margin-top: 15px;
 }
