@@ -78,6 +78,13 @@ header {
         align-items: center;
         text-align: center;
     }
+    .maincontent__projekter {
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .container {
         padding-bottom: 20px;
         padding-top: 60px;
@@ -104,9 +111,6 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px 15%;
-}
-
-.maincontent {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -144,6 +148,62 @@ header {
 .maincontent img {
     max-width: 100%;
     border-radius: 15px;
+}
+
+.maincontent__projekter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+}
+
+.maincontent__projekter .cta__seprojekter {
+    margin-left: 10px;
+    padding: 10px 10px; 
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.maincontent__projekter button {
+    padding: 10px 10px; 
+    background-color: rgb(15, 101, 199);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.maincontent__projekter button:hover {
+    background-color: rgba(15, 101, 199,0.7);
+}
+
+.maincontent__projekter .cta__seprojekter:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.maincontent__projekter img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.imgcontainer {
+    align-items: center;
+}
+
+@media only screen and (max-width: 1322px) {
+    .maincontent .cta__seprojekter {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 1086px) {
