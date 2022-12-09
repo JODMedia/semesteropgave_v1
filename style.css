@@ -164,6 +164,14 @@ header {
     color: white;
 }
 
+.maincontent__projekter .container {
+    flex: 25%;
+}
+
+.subjectparagraph {
+    max-width: 500px;
+}
+
 .margintop {
     margin-top: 50px;
 }
