@@ -112,12 +112,14 @@ header {
 .maincontent {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 15%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .maincontent .cta__seprojekter {
@@ -156,12 +158,14 @@ header {
 .maincontent__projekter {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 15%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .maincontent__projekter .container {
@@ -245,8 +249,11 @@ header {
     }
 }
 
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 524px) {
     .img2 {
+        margin-top: 7px;
+    }
+    .img3 {
         margin-top: 7px;
     }
 }
