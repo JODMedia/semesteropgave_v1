@@ -59,7 +59,7 @@ header {
     background-color: rgba(15, 101, 199,0.7);
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1006px) {
     header {
         flex-direction: column;
         padding: 0px;
@@ -86,11 +86,14 @@ header {
         text-align: center;
     }
     .container {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         padding-top: 60px;
     }
     .navlist button {
         margin-top: 8px;
+    }
+    .img3 {
+        margin-top: 7px;
     }
 
 }
@@ -153,12 +156,16 @@ header {
 .maincontent__projekter {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 15%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: white;
+}
+
+.margintop {
+    margin-top: 50px;
 }
 
 .maincontent__projekter .cta__seprojekter {
@@ -195,8 +202,8 @@ header {
     margin-left: 10px;
 }
 
-.imgcontainer {
-    align-items: center;
+.imgcontainer img {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 1322px) {
@@ -206,10 +213,39 @@ header {
     }
 }
 
-@media only screen and (max-width: 1086px) {
-    .maincontent .cta__seprojekter {
+@media only screen and (max-width: 1475px) {
+    .maincontent__projekter {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 1475px) {
+    .imgcontainer {
         margin-top: 10px;
-        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .img2 {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .img2 {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 268px) {
+    .cta__seprojekter {
+        margin-top: 10px;
     }
 }
 
