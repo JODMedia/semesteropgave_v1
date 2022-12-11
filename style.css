@@ -84,10 +84,7 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-    .container {
-        padding-bottom: 0px;
-        padding-top: 60px;
+        margin-top: 60px;
     }
     .navlist button {
         margin-top: 8px;
@@ -227,7 +224,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 1475px) {
+@media only screen and (max-width: 1439px) {
     .maincontent__projekter {
         flex-wrap: wrap;
         flex-direction: column;
@@ -236,7 +233,13 @@ header {
         align-items: center;
         text-align: center;
     }
-    
+}
+
+@media only screen and (max-width: 1460px) {
+    .maincontent__projekter .cta__seprojekter {
+        margin-left: 0px;
+        margin-top: 10px;
+    }  
 }
 
 @media only screen and (max-width: 1475px) {
