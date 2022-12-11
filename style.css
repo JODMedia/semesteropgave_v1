@@ -120,6 +120,7 @@ header {
     color: white;
     margin-left: 5%;
     margin-right: 5%;
+    gap: 20px;
 }
 
 .maincontent .cta__seprojekter {
