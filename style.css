@@ -42,11 +42,11 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.navlist li a:hover {
+.navlist li .i__turn__blue:hover {
     color: rgb(15, 101, 199);
 }
 
-.navlist button {
+.navlist .cta__style {
    padding: 10px 10px; 
    background-color: rgba(15, 101, 199,1); /* en anden farve kunne være 58, 65, 255 */
    border: none;
@@ -55,7 +55,20 @@ header {
    transition: all 0.3s ease 0s;
 }
 
-.navlist button:hover {
+.navlist .cta__style:hover {
+    background-color: rgba(15, 101, 199,0.7);
+}
+
+.cta__style {
+   padding: 10px 10px; 
+   background-color: rgba(15, 101, 199,1); /* en anden farve kunne være 58, 65, 255 */
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+
+.cta__style:hover {
     background-color: rgba(15, 101, 199,0.7);
 }
 
@@ -86,7 +99,7 @@ header {
         text-align: center;
         margin-top: 60px;
     }
-    .navlist button {
+    .navlist a {
         margin-top: 8px;
     }
     .img3 {
@@ -131,7 +144,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.maincontent button {
+.maincontent .cta__style {
     padding: 10px 10px; 
     background-color: rgb(15, 101, 199);
     border: none;
@@ -140,7 +153,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.maincontent button:hover {
+.maincontent .cta__style:hover {
     background-color: rgba(15, 101, 199,0.7);
 }
 
@@ -190,7 +203,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.maincontent__projekter button {
+.maincontent__projekter .cta__style {
     padding: 10px 10px; 
     background-color: rgb(15, 101, 199);
     border: none;
@@ -199,7 +212,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.maincontent__projekter button:hover {
+.maincontent__projekter .cta__style:hover {
     background-color: rgba(15, 101, 199,0.7);
 }
 
