@@ -66,13 +66,14 @@ header {
    border-radius: 3px;
    cursor: pointer;
    transition: all 0.3s ease 0s;
+   white-space: nowrap;
 }
 
 .cta__style:hover {
     background-color: rgba(15, 101, 199,0.7);
 }
 
-@media only screen and (max-width: 1006px) {
+@media only screen and (max-width: 1014px) {
     header {
         flex-direction: column;
         padding: 0px;
@@ -90,6 +91,7 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 60px;
     }
     .maincontent__projekter {
         flex-direction: column;
@@ -142,6 +144,7 @@ header {
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    white-space: nowrap;
 }
 
 .maincontent .cta__style {
@@ -151,6 +154,10 @@ header {
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+.maincontent a {
+    display: inline-block;
 }
 
 .maincontent .cta__style:hover {
@@ -245,6 +252,9 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .container {
+        margin-bottom: 10px;
     }
 }
 
